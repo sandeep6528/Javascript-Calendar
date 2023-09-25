@@ -28,7 +28,7 @@ $(function () {
   //
   hours.forEach((value) => {
     const hourElement = $('#hour-' + value)
-    const hour = Number(now.format('H')) -12
+    const hour = Number(now.format('H'))
 
     if(hour === value){
       hourElement.addClass('present')
